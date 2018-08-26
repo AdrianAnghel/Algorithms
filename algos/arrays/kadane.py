@@ -1,3 +1,8 @@
+'''
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+'''
+
+
 def kadane(numbers):
     current_max = new_max = numbers[0]
     for number in numbers[1:]:

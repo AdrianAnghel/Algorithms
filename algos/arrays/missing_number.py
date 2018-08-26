@@ -1,3 +1,8 @@
+'''
+https://www.geeksforgeeks.org/find-the-missing-number/
+'''
+
+
 def missing_number(numbers_array):
     n = len(numbers_array) + 1
     missing_number = int(n * (n+1) / 2)
